@@ -1,0 +1,3 @@
+﻿  main.c
+D:\programation\C\RestartMyC\LeToutDebut\main.c(13,18): warning C4244: 'fonction' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  LeToutDebut.vcxproj -> D:\programation\C\RestartMyC\x64\Debug\LeToutDebut.exe
