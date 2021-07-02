@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main()
+int main(int argc, char* argv[])
 {
 	int min = 0, max = 0;
 	printf("definit le min : ");
