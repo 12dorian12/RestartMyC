@@ -1,6 +1,10 @@
 #ifndef DEF_CONSOLE
 #define DEF_CONSOLE
 
-void mainMenu();
+int clavierMenu(int touche);
+
+void affichageMenu(int pos, int type);
+
+void naviguerMenu(int* pos, int* type, int direction);
 
 #endif 
