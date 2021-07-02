@@ -113,11 +113,13 @@ void naviguerMenu(int* pos, int *type, int direction)
 	case 0:
 		if (direction == 2)
 		{
-			*pos = 1;
+			*pos = *pos+1;
+			*pos = (*pos > 3) ? 3 : *pos;
 		}
 		else if (direction == 8)
 		{
-			*pos = 2;
+			*pos = *pos - 1;
+			*pos = (*pos < 1) ? 1 : *pos;
 		}
 		break;
 	}
